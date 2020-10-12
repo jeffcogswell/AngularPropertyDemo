@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'ang2';
+  callFromChild = function(str) {
+    alert(str);
+  };
+  callFromChild2 = function(str) {
+    alert(str);
+  }
 }
